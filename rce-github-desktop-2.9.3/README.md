@@ -2,6 +2,9 @@
 
 ![](github_desktop_openlocalrepo_safari.gif)
 
+**[High-res Safari PoC screencast](https://drive.google.com/file/d/1QTEtoT_RyZz3ZtFpND82rD_nyXKHDF8L/view?usp=sharing)**
+
+
 - [RCE in GitHub Desktop < 2.9.4](#rce-in-github-desktop-294)
 - [Intro](#intro)
 - [Summary](#summary)
