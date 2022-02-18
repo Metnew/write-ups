@@ -108,7 +108,7 @@ URLs like `icloud-sharing://www.icloud.com/iclouddrive/0sW3_56zbqY0Exxxxxxxxxxxx
 
 **Safari attack scenario**
 
-![](https://drive.google.com/file/d/1QTEtoT_RyZz3ZtFpND82rD_nyXKHDF8L/view?usp=sharing)
+**[PoC Screencast](https://drive.google.com/file/d/1QTEtoT_RyZz3ZtFpND82rD_nyXKHDF8L/view?usp=sharing)**
 
 1. User visits the attacker's website
 2. The website downloads a malicious archive. The archive with the malicious repo is extracted to `/Users/user/Downloads/archive`
@@ -117,7 +117,7 @@ URLs like `icloud-sharing://www.icloud.com/iclouddrive/0sW3_56zbqY0Exxxxxxxxxxxx
 
 **smb:// attack scenario**
 
-![](https://drive.google.com/file/d/1QNDr_qzO-KpKMbKEbZ5YW0IhxBHLuJ_e/view?usp=sharing)
+**[PoC Screencast](https://drive.google.com/file/d/1QNDr_qzO-KpKMbKEbZ5YW0IhxBHLuJ_e/view?usp=sharing)**
 
 > PoC took a bit long, but it's possible to fine tune the smb server to skip that pause I had in the screencast
 
