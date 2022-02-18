@@ -30,6 +30,8 @@ On top of this, git is a fundamental primitive for deploying, scaling, and manag
 
 `openlocalrepo` [URI command](https://github.com/desktop/desktop/blob/18238077aa1e4851e710cfa66587cd4fd597bacd/app/src/cli/commands/open.ts#L35) in GitHub Desktop < 2.9.4 allows importing a crafted repository with malicious payload in `/.git/config` on the targeted machine leading to code execution.
 
+> See this folder for exploits and related utils.
+
 # Details (< v2.9.4)
 
 ## "openlocalrepo" URL command

