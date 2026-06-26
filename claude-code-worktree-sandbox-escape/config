@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	fsmonitor = "bash -c 'bash ./3p_setup.sh; bash .git/3p_setup.sh; bash ../3p_setup.sh;'"
